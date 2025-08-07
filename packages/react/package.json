@@ -1,0 +1,50 @@
+{
+  "name": "@delvforge/react",
+  "version": "1.0.0",
+  "description": "DelvForge CSS utility framework for React",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./css": "@delvforge/core/css"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "types": "tsc --declaration --emitDeclarationOnly --outDir dist"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "utility",
+    "framework",
+    "delvforge",
+    "tailwind",
+    "styled-components"
+  ],
+  "author": "Your Company",
+  "license": "MIT",
+  "dependencies": {
+    "@delvforge/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

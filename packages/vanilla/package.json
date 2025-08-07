@@ -1,0 +1,44 @@
+{
+  "name": "@delvforge/vanilla",
+  "version": "1.0.0",
+  "description": "DelvForge CSS utility framework for vanilla JavaScript",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "browser": "dist/index.browser.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./css": "@delvforge/core/css"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "types": "tsc --declaration --emitDeclarationOnly --outDir dist"
+  },
+  "keywords": [
+    "vanilla",
+    "javascript",
+    "css",
+    "utility",
+    "framework",
+    "delvforge",
+    "dom"
+  ],
+  "author": "Your Company",
+  "license": "MIT",
+  "dependencies": {
+    "@delvforge/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

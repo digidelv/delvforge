@@ -1,0 +1,51 @@
+{
+  "name": "delvforge",
+  "version": "1.0.0",
+  "description": "Universal CSS utility framework for React, Vue, Angular, React Native, and Vanilla JS",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:core && npm run build:packages",
+    "build:core": "npm run build -w packages/core",
+    "build:packages": "npm run build -w packages/react && npm run build -w packages/vue && npm run build -w packages/angular && npm run build -w packages/react-native && npm run build -w packages/vanilla",
+    "dev": "npm run dev:core",
+    "dev:core": "npm run dev -w packages/core",
+    "test": "npm run test -w packages/core",
+    "lint": "npm run lint -w packages/core",
+    "clean": "rimraf packages/*/dist packages/*/node_modules",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "framework",
+    "react",
+    "vue",
+    "angular",
+    "react-native",
+    "vanilla",
+    "universal",
+    "postcss",
+    "responsive"
+  ],
+  "author": "Your Company",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/node": "^20.8.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourcompany/delvforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourcompany/delvforge/issues"
+  },
+  "homepage": "https://delvforge.com"
+}

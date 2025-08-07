@@ -1,0 +1,49 @@
+{
+  "name": "@delvforge/angular",
+  "version": "1.0.0",
+  "description": "DelvForge CSS utility framework for Angular",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./css": "@delvforge/core/css"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "ng-packagr",
+    "dev": "ng-packagr -w",
+    "types": "tsc --declaration --emitDeclarationOnly --outDir dist"
+  },
+  "keywords": [
+    "angular",
+    "css",
+    "utility",
+    "framework",
+    "delvforge",
+    "directive",
+    "service"
+  ],
+  "author": "Your Company",
+  "license": "MIT",
+  "dependencies": {
+    "@delvforge/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=15.0.0",
+    "@angular/common": ">=15.0.0"
+  },
+  "devDependencies": {
+    "@angular/core": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "ng-packagr": "^17.0.0"
+  }
+}

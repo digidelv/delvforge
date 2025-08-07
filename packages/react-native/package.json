@@ -1,0 +1,52 @@
+{
+  "name": "@delvforge/react-native",
+  "version": "1.0.0",
+  "description": "DelvForge CSS utility framework for React Native with NativeWind integration",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "react-native": "dist/index.native.js",
+  "exports": {
+    ".": {
+      "react-native": "./dist/index.native.js",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "types": "tsc --declaration --emitDeclarationOnly --outDir dist"
+  },
+  "keywords": [
+    "react-native",
+    "nativewind",
+    "css",
+    "utility",
+    "framework",
+    "delvforge",
+    "mobile"
+  ],
+  "author": "Your Company",
+  "license": "MIT",
+  "dependencies": {
+    "@delvforge/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "nativewind": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0"
+  }
+}

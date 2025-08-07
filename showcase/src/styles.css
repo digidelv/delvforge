@@ -1,0 +1,223 @@
+/* Import DelvForge CSS Framework */
+/* @import '../node_modules/delvforge/dist/delvforge.css'; */
+
+/* Temporary: Direct DelvForge CSS content for demo */
+
+/* Core DelvForge Utilities */
+.df-container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+.df-grid { display: grid; }
+.df-flex { display: flex; }
+.df-block { display: block; }
+.df-hidden { display: none; }
+.df-inline-flex { display: inline-flex; }
+
+/* Grid System */
+.df-grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.df-grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.df-grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.df-grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.df-grid-cols-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.df-grid-cols-24 { grid-template-columns: repeat(24, minmax(0, 1fr)); }
+
+.df-col-span-4 { grid-column: span 4 / span 4; }
+.df-col-span-6 { grid-column: span 6 / span 6; }
+.df-col-span-8 { grid-column: span 8 / span 8; }
+.df-col-span-10 { grid-column: span 10 / span 10; }
+
+/* Gap */
+.df-gap-2 { gap: 0.5rem; }
+.df-gap-4 { gap: 1rem; }
+.df-gap-6 { gap: 1.5rem; }
+.df-gap-8 { gap: 2rem; }
+
+/* Flexbox */
+.df-justify-center { justify-content: center; }
+.df-justify-between { justify-content: space-between; }
+.df-items-center { align-items: center; }
+.df-flex-wrap { flex-wrap: wrap; }
+
+/* Spacing */
+.df-p-2 { padding: 0.5rem; }
+.df-p-3 { padding: 0.75rem; }
+.df-p-4 { padding: 1rem; }
+.df-p-6 { padding: 1.5rem; }
+.df-p-8 { padding: 2rem; }
+.df-py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.df-py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+.df-py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+.df-py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+.df-px-4 { padding-left: 1rem; padding-right: 1rem; }
+.df-mb-2 { margin-bottom: 0.5rem; }
+.df-mb-3 { margin-bottom: 0.75rem; }
+.df-mb-4 { margin-bottom: 1rem; }
+.df-mb-6 { margin-bottom: 1.5rem; }
+.df-mb-8 { margin-bottom: 2rem; }
+.df-mb-12 { margin-bottom: 3rem; }
+.df-mt-4 { margin-top: 1rem; }
+.df-mx-auto { margin-left: auto; margin-right: auto; }
+
+/* Typography */
+.df-text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.df-text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.df-text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.df-text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+.df-text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+.df-text-5xl { font-size: 3rem; line-height: 1; }
+.df-text-6xl { font-size: 3.75rem; line-height: 1; }
+.df-font-bold { font-weight: 700; }
+.df-font-semibold { font-weight: 600; }
+.df-text-center { text-align: center; }
+
+/* Colors */
+.df-bg-white { background-color: #ffffff; }
+.df-bg-gray-50 { background-color: #f9fafb; }
+.df-bg-gray-800 { background-color: #1f2937; }
+.df-bg-primary-100 { background-color: #dbeafe; }
+.df-bg-primary-500 { background-color: #3b82f6; }
+.df-bg-primary-600 { background-color: #2563eb; }
+.df-bg-success-100 { background-color: #d1fae5; }
+.df-bg-success-500 { background-color: #10b981; }
+.df-bg-warning-100 { background-color: #fef3c7; }
+.df-bg-warning-500 { background-color: #f59e0b; }
+.df-bg-danger-500 { background-color: #ef4444; }
+.df-bg-info-100 { background-color: #dbeafe; }
+.df-bg-info-500 { background-color: #3b82f6; }
+.df-bg-blue-100 { background-color: #dbeafe; }
+.df-bg-green-100 { background-color: #d1fae5; }
+.df-bg-yellow-100 { background-color: #fef3c7; }
+.df-bg-red-100 { background-color: #fee2e2; }
+.df-bg-indigo-100 { background-color: #e0e7ff; }
+.df-bg-purple-100 { background-color: #f3e8ff; }
+.df-bg-pink-100 { background-color: #fce7f3; }
+.df-text-white { color: #ffffff; }
+.df-text-gray-400 { color: #9ca3af; }
+.df-text-gray-600 { color: #4b5563; }
+.df-text-gray-900 { color: #111827; }
+.df-text-primary-500 { color: #3b82f6; }
+.df-text-primary-600 { color: #2563eb; }
+.df-text-success-600 { color: #059669; }
+.df-text-warning-600 { color: #d97706; }
+.df-text-info-600 { color: #2563eb; }
+.df-text-purple-600 { color: #9333ea; }
+.df-text-teal-600 { color: #0d9488; }
+
+/* Borders */
+.df-border-b { border-bottom-width: 1px; border-style: solid; }
+.df-border-t { border-top-width: 1px; border-style: solid; }
+.df-border { border-width: 1px; border-style: solid; }
+.df-border-white { border-color: #ffffff; }
+.df-border-gray-700 { border-color: #374151; }
+.df-border-surface-border { border-color: var(--df-surface-border); }
+.df-rounded { border-radius: 0.25rem; }
+.df-rounded-full { border-radius: 9999px; }
+
+/* Shadows */
+.df-shadow-sm { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
+
+/* Sizing */
+.df-w-12 { width: 3rem; }
+.df-w-full { width: 100%; }
+.df-h-12 { height: 3rem; }
+.df-max-w-md { max-width: 28rem; }
+.df-max-w-3xl { max-width: 48rem; }
+.df-min-h-screen { min-height: 100vh; }
+
+/* Transitions */
+.df-transition-colors { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+
+/* Opacity */
+.df-opacity-90 { opacity: 0.9; }
+
+/* Component Classes */
+.navbar { display: flex; align-items: center; justify-content: space-between; padding: 1rem; background-color: var(--df-surface-section, #ffffff); }
+.navbar-brand { font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--df-text-primary, #333); }
+.navbar-nav { display: flex; gap: 1rem; list-style: none; margin: 0; padding: 0; }
+.navbar-item { color: var(--df-text-secondary, #666); text-decoration: none; padding: 0.5rem; }
+.navbar-item:hover { color: var(--df-primary-500, #3b82f6); }
+
+.card { background-color: var(--df-surface-section, #ffffff); border: 1px solid var(--df-surface-border, #e2e8f0); border-radius: var(--df-border-radius, 0.5rem); padding: 1rem; }
+.card-elevated { box-shadow: var(--df-shadow-lg, 0 10px 15px -3px rgb(0 0 0 / 0.1)); }
+.card-header { padding: 1rem 1rem 0.5rem; border-bottom: 1px solid var(--df-surface-border, #e2e8f0); }
+.card-body { padding: 1rem; }
+.card-footer { padding: 0.5rem 1rem 1rem; border-top: 1px solid var(--df-surface-border, #e2e8f0); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; border-radius: var(--df-border-radius, 0.5rem); font-weight: 500; transition: all 150ms ease; cursor: pointer; text-decoration: none; border: 1px solid transparent; font-size: 0.875rem; padding: 0.5rem 1rem; line-height: 1.25rem; }
+.btn-primary { background-color: var(--df-primary-500, #3b82f6); color: white; border-color: var(--df-primary-500, #3b82f6); }
+.btn-primary:hover { background-color: var(--df-primary-600, #2563eb); }
+.btn-secondary { background-color: #f1f5f9; color: #334155; border-color: #cbd5e1; }
+.btn-success { background-color: #10b981; color: white; }
+.btn-warning { background-color: #f59e0b; color: white; }
+.btn-danger { background-color: #ef4444; color: white; }
+.btn-outline { background-color: transparent; color: var(--df-primary-500, #3b82f6); border-color: var(--df-primary-500, #3b82f6); }
+.btn-ghost { background-color: transparent; color: var(--df-text-primary, #333); }
+.btn-sm { padding: 0.375rem 0.75rem; font-size: 0.8125rem; }
+.btn-lg { padding: 0.75rem 1.5rem; font-size: 1rem; }
+.btn-xl { padding: 1rem 2rem; font-size: 1.125rem; }
+
+.form-group { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+.form-label { display: block; font-weight: 500; margin-bottom: 0.5rem; color: var(--df-text-primary, #333); }
+.form-control { display: block; width: 100%; padding: 0.5rem 0.75rem; font-size: 0.875rem; line-height: 1.5; background-color: #ffffff; border: 1px solid #d1d5db; border-radius: 0.375rem; }
+.form-select { display: block; width: 100%; padding: 0.5rem 2rem 0.5rem 0.75rem; font-size: 0.875rem; background-color: #ffffff; border: 1px solid #d1d5db; border-radius: 0.375rem; }
+.form-help { font-size: 0.75rem; color: #6b7280; margin-top: 0.25rem; }
+.form-check { display: flex; align-items: center; gap: 0.5rem; }
+.form-check-input { width: 1rem; height: 1rem; border: 1px solid #d1d5db; border-radius: 0.25rem; }
+
+/* Space utilities */
+.df-space-y-4 > * + * { margin-top: 1rem; }
+
+/* Responsive utilities */
+@media (min-width: 768px) {
+  .md\\:df-flex { display: flex; }
+  .md\\:df-grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .md\\:df-grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .md\\:df-grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .md\\:df-grid-cols-8 { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+  .md\\:df-text-6xl { font-size: 3.75rem; line-height: 1; }
+  .md\\:df-inline-flex { display: inline-flex; }
+}
+
+@media (min-width: 1024px) {
+  .lg\\:df-grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .lg\\:df-grid-cols-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .lg\\:df-grid-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+/* Hover states */
+.hover\\:df-text-primary-500:hover { color: var(--df-primary-500, #3b82f6); }
+.hover\\:df-bg-gray-100:hover { background-color: #f3f4f6; }
+.hover\\:df-bg-white:hover { background-color: #ffffff; }
+.hover\\:df-text-primary-600:hover { color: var(--df-primary-600, #2563eb); }
+
+/* Gradients */
+.df-bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); }
+.df-from-blue-50 { --tw-gradient-from: #eff6ff; --tw-gradient-to: rgb(239 246 255 / 0); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+.df-to-indigo-100 { --tw-gradient-to: #e0e7ff; }
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--df-text-primary, #333);
+  background-color: var(--df-surface-ground, #ffffff);
+}
+
+/* Custom DelvForge theme overrides */
+:root {
+  --df-primary-500: #2196f3;
+  --df-primary-600: #1976d2;
+  --df-primary-invert: #ffffff;
+  --df-surface-ground: #f8fafc;
+  --df-surface-section: #ffffff;
+  --df-surface-border: #e2e8f0;
+  --df-text-primary: #1e293b;
+  --df-text-secondary: #64748b;
+  --df-border-radius: 0.5rem;
+  --df-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --df-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
