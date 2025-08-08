@@ -1,8 +1,8 @@
 {
-  "name": "delvforge",
+  "name": "@delvforge/css",
   "version": "1.0.0",
-  "description": "Universal CSS utility framework for React, Vue, Angular, React Native, and Vanilla JS",
-  "private": true,
+  "description": "DelvForge - Universal CSS utility framework similar to TailwindCSS with enhanced capabilities",
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -32,7 +32,7 @@
     "postcss",
     "responsive"
   ],
-  "author": "Your Company",
+  "author": "Aman Soni <aman.soni.se@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
@@ -42,10 +42,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourcompany/delvforge.git"
+    "url": "git+https://github.com/digidelv/delvforge.git"
   },
   "bugs": {
-    "url": "https://github.com/yourcompany/delvforge/issues"
+    "url": "https://github.com/digidelv/delvforge/issues"
   },
-  "homepage": "https://delvforge.com"
+  "homepage": "https://github.com/digidelv/delvforge#readme",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

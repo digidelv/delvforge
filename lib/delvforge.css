@@ -1,0 +1,17 @@
+/*
+ * DelvForge CSS Utility Framework
+ * Advanced utility-first CSS framework with enhanced features
+ * 
+ * Features:
+ * - Extended breakpoint system (xs, sm, md, lg, xl, 2xl, 3xl)
+ * - 24-column grid system
+ * - Advanced color system with opacity variants
+ * - Component-based utilities
+ * - Container queries support
+ * - Fluid typography
+ * - Logical properties support
+ * - Enhanced animation system
+ * - Modern CSS features
+ */
+
+@delvforge;
